@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>My Canvas demo</title>
+    <script type="text/javascript" src="shapes.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="init()">
+    <div id="container">
+      <canvas id="canvas" width="400" height="300" style="border: 1px solid black;">
+        This text is displayed if your browser does not support HTML5 Canvas.
+      </canvas>
+      <div id="right-panel">
+      <form>
+        <label>Selected Item X:</label>
+        <input type="number" value="asas" id="selected_item_x">
+        <label>Selected Item Y:</label>
+        <input type="number" value="asas" id="selected_item_y">
+        <label>Selected Item Width:</label>
+        <input type="number" value="asas" id="selected_item_width">
+        <label>Selected Item Height:</label>
+        <input type="number" value="asas" id="selected_item_height">
+      </form>
+      <button id="create_item">Click Me!!</button>
+    </div>
+    </div>
+
+  </body>
+</html>

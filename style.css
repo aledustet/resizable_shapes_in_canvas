@@ -1,0 +1,15 @@
+#right-panel {
+  width: 340px;
+  float: right;
+  margin-right: 250px;
+}
+
+label{
+  margin: 5px;
+  float: none;
+}
+
+input{
+  margin: 5px;
+  float: none;
+}
